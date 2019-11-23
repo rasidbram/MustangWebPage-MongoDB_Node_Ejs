@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/ac22bc3df2.js" crossorigin="anonymous"></script>
+  <!-- for google sign button -->
+  <link rel="stylesheet" href="css/bootstrap-social.css">
+  <link rel="stylesheet" href="css/loginstyle.css" />
+  <!-- bootstrap javascript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <!-- jquery google cdn -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <title>MuStAnG</title>
+ 
+</head>
+
+<body>
+    <div class="login-page">
+        <div class="form">
+          <!-- <form class="register-form" action="/login" method="POST">
+            <input type="text" placeholder="Username" name="userName"/>
+            <input type="email" placeholder="E-mail Address" name="eMail"/>
+            <input type="text" placeholder="Fullname" name="fullName"/>
+            <input type="password" placeholder="Password" name="passWord"/>
+            <input type="password" placeholder="Password Confirmation" name="confirmationPassword"/>
+            <button type="submit">CREATE</button>
+            <p class="message">Already registered? <a href="#">Sign In</a></p>
+            <a style="text-decoration: none;"href="/home">Home Page</a>
+          </form> -->
+          <form class="login-form" action="/login" method="POST">
+            <input type="text" placeholder="Username" name="username" autocomplete="off"/>
+            <input type="password" placeholder="Password" name="password" autocomplete="off"/>
+            <button type="submit">LOG IN</button>
+            <p class="message">Not registered? <a href="/register">Create an account</a></p>
+            <a style="text-decoration: none;" href="/home">Home Page</a>
+
+            
+            <div class="card-body">
+                <a class="btn btn-block btn-social btn-google" href="/auth/google" role="button">
+                  <i class="fab fa-google"></i>
+                  Sign Up with Google
+                </a>
+              </div>
+
+          </form>
+        </div>
+      </div>
+     
+    <!-- <script>
+       $('.message a').click(function(){
+        $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+      });
+    </script> -->
+     
+</body>
+</html>

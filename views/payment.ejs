@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/ac22bc3df2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/paymentform.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- bootstrap javascript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <title>MuStAnG</title>
+</head>
+<!-- nav bar -->
+<nav style="font-size:larger;" class="navbar navbar-expand-lg navbar-light bg-light ">
+    <a class="navbar-brand text3" href="/"><img src="images/Mustang-logo-old-2048x2048.png" width="75" height="75"
+            class="d-inline-block align-inside" alt="mustang logo" />
+        M u s t a n g
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse m-auto" id="navbarNav">
+        <ul class="nav navbar-nav m-auto">
+            <li class="nav-item ">
+                <a class="nav-link bg-blue " href="/home"><i class="fas fa-home"></i> Home |<span
+                        class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="/testdrive"><i class="fas fa-car"></i> Test Drive |</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#"><i class="fas fa-pound-sign"></i> Payment |</a>
+            </li>
+            <li class="nav-item active">
+                    <a class="nav-link"> Hello! <%=users[users.length-1].username%> <%=users[users.length-1].googleName%></a>
+                </li>
+        </ul>
+    </div>
+</nav>
+
+<body>
+     <!-- classic cars -->
+  <div class="container">
+        <div class="card-deck mt-3">
+          <div class="card">
+            <img class="card-img-top" src="images\classic mustang\2b3c38d55600c8994101efe6a3797f13.jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Close to You as Click On it</h5>
+             <a style=" text-decoration: none;" href="#payment"><button type="button" class="btn btn-primary btn-sm btn-block sellButton">P A Y </button></a>
+             <div><i class="fas fa-pound-sign"></i> 34.250</div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images\classic mustang\e923a10bc112c129acbea11eb5a29b4e.jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Close to You as Click On it</h5>
+              <a style=" text-decoration: none;" href="#payment"><button type="button" class="btn btn-primary btn-sm btn-block sellButton">P A Y </button></a>
+              <div><i class="fas fa-pound-sign"></i> 28.600</div>
+            </div>
+          </div>
+          <div class="card">
+            <img style="height:232px;" class="card-img-top" src="images\classic mustang\66-Mustang-blue-(2).jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Close to You as Click On it</h5>
+              <a style=" text-decoration: none;" href="#payment"><button type="button" class="btn btn-primary btn-sm btn-block sellButton">P A Y </button></a>
+              <div><i class="fas fa-pound-sign"></i> 30.300</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- sports car -->
+      <div class="container">
+    
+        <div class="card-deck mt-3">
+          <div class="card">
+            <img class="card-img-top" src="images\sport mustang\4aba16e209444c19b319973c838479ca.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Close to You as Click On it</h5>
+              <a style=" text-decoration: none;" href="#payment"><button type="button" class="btn btn-primary btn-sm btn-block sellButton">P A Y </button></a>
+              <div><i class="fas fa-pound-sign"></i> 36.270</div>
+            </div>
+          </div>
+          <div class="card">
+            <img style="height: 233px;" class="card-img-top" src="images\sport mustang\3f50435f2ac4425aa901c52ea9dd4ca9.jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Close to You as Click On it</h5>
+              <a style=" text-decoration: none;" href="#payment"><button type="button" class="btn btn-primary btn-sm btn-block sellButton">P A Y </button></a>
+              <div><i class="fas fa-pound-sign"></i> 43.450</div>
+            </div>
+          </div>
+          <div class="card">
+            <img style="height:232px;" class="card-img-top" src="images\sport mustang\aed2ebacae634cb3927d01e3c5466af9.jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Close to You as Click On it</h5>
+              <a style=" text-decoration: none;" href="#payment"><button type="button" class="btn btn-primary btn-sm btn-block sellButton">P A Y </button></a>
+              <div><i class="fas fa-pound-sign"></i> 38.380</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- modified cars -->
+      <div class="container">
+        <div class="card-deck mt-3">
+          <div class="card">
+            <img class="card-img-top" src="images\modified mustang\retro-ford-mustang-gt-sema.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Close to You as Click On it</h5>
+              <a style=" text-decoration: none;" href="#payment"><button type="button" class="btn btn-primary btn-sm btn-block sellButton">P A Y </button></a>
+              <div><i class="fas fa-pound-sign"></i> 47.780</div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images\modified mustang\1966-ford-mustang-fastback-gt350r-tribute (1).jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Close to You as Click On it</h5>
+              <a style=" text-decoration: none;" href="#payment"><button type="button" class="btn btn-primary btn-sm btn-block sellButton">P A Y </button></a>
+              <div><i class="fas fa-pound-sign"></i> 39.400</div>
+            </div>
+          </div>
+          <div class="card">
+            <img style="height:195px;" class="card-img-top"
+              src="images\modified mustang\zero-to-60-mustang-gtt-first-drive.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Close to You as Click On it</h5>
+              <a style=" text-decoration: none;" href="#payment"><button type="button" class="btn btn-primary btn-sm btn-block sellButton">P A Y </button></a>
+              <div><i class="fas fa-pound-sign"></i> 42.800</div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- payment form -->
+        <div class="row" id="payment">
+          <div class="col-75">
+            <div class="container">
+              <form>
+              
+                <div class="row">
+                  <div class="col-50">
+                    <h3>Billing Address</h3>
+                    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                    <input type="text" id="email" name="email" placeholder="john@example.com">
+                    <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                    <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                    <label for="city"><i class="fa fa-institution"></i> City</label>
+                    <input type="text" id="city" name="city" placeholder="New York">
+        
+                    <div class="row">
+                      <div class="col-50">
+                        <label for="state">State</label>
+                        <input type="text" id="state" name="state" placeholder="NY">
+                      </div>
+                      <div class="col-50">
+                        <label for="zip">Zip</label>
+                        <input type="text" id="zip" name="zip" placeholder="10001">
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-50">
+                    <h3>Payment</h3>
+                    <label for="fname">Accepted Cards</label>
+                    <div class="icon-container">
+                           <span><img src="https://img.icons8.com/color/34/000000/visa.png"></span>
+                          <span> <img src="https://img.icons8.com/color/34/000000/mastercard.png"></span>
+                      <span><img src="https://img.icons8.com/color/34/000000/paypal.png"></span>
+                      <span><img src="https://img.icons8.com/color/34/000000/discover.png"></span>
+                    </div>
+                    <label for="cname">Name on Card</label>
+                    <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                    <label for="ccnum">Credit card number</label>
+                    <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                    <label for="expmonth">Exp Month</label>
+                    <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                    <div class="row">
+                      <div class="col-50">
+                        <label for="expyear">Exp Year</label>
+                        <input type="text" id="expyear" name="expyear" placeholder="2018">
+                      </div>
+                      <div class="col-50">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" name="cvv" placeholder="352">
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                <label>
+                  <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                </label>
+                <input type="submit" value="Continue to checkout" class="btn">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="icons">
+                <p>Follow us</p>
+                <a href="http://www.facebook.com"> <img src="https://img.icons8.com/color/48/000000/facebook.png"></a>
+                <a href="http://www.instagram.com"> <img src="https://img.icons8.com/color/48/000000/instagram-new.png"></a>
+                <a href="http://www.youtube.com"> <img src="https://img.icons8.com/color/48/000000/youtube.png"> </a>
+                <a href="http://www.twitter.com"> <img src="https://img.icons8.com/color/48/000000/twitter-squared.png"> </a>
+                <!-- <i style="font-size:44px;"class="fab fa-facebook-square"></i>
+                  <i style="font-size:44px;"class="fab fa-instagram"></i>
+                  <i style="font-size:44px;"class="fab fa-youtube"></i>
+                  <i style="font-size:44px;"class="fab fa-twitter-square"></i> -->
+              </div>
+              <div>
+                <footer>
+                  <hr>
+                  <p style="text-align: center;">Contact information: <a href="mail:someone@example.com">
+                      mustang@mustang.com</a></p>
+                  <div style="margin: 35px 45px; text-align: center;">
+                    <a style="text-decoration:none;" href="/compose"> <button style="background-color:#FFC310" name="askme" type="button"
+                        class="btn btn-warning btn-lg btn-block">A S K - M E </button> </a>
+                  </div>
+                </footer>
+              </div>
+              <!-- toggle be able to read to comments -->
+</body>
+
+</html>
