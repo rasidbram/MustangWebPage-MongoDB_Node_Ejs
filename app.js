@@ -359,7 +359,7 @@ app.post("/login", (req, res) => {
 });
 // *************************************
 
-app.listen(3030, function () {
+app.listen(process.env.PORT || 3030, function () {
   console.log("Server started on port 3030");
 });
 
