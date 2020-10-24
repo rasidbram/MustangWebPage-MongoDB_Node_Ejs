@@ -1,0 +1,211 @@
+
+.imgButton{
+    text-align:center;
+    margin: 10px 5px;
+  }
+  .icons{
+      text-align: center;
+      margin: 35px 5px;
+      letter-spacing: 0.65em;
+  }
+
+.h1{
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 0.15em;
+}
+.h3{
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+.p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    z-index: -1;
+    transform: scale(1.8);
+    animation: scaleImage 3s ease-out forwards;
+    /* background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover; */
+}
+
+.text{
+    display: flex;
+    /* position: relative; */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: 'Russo One', sans-serif;
+    font-size:68px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.45em;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000080;
+    text-shadow: 3px 0 #e60000, 0 3px #e60000, 3px 0 #e60000, 0 3px #e60000;
+    background-color: #8080ff;
+    mix-blend-mode: multiply;
+    opacity: 0;
+    animation: fadeInText 3s 2s ease-out forwards;
+   
+}
+.text2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: 'Russo One', sans-serif;
+    font-size:68px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.45em;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: yellow;
+    /* text-shadow: 2px 0 yellow, 0 2px yellow, 2px 0 yellow, 0 2px yellow; */
+    background-color: #8080ff;
+    mix-blend-mode: multiply;
+    opacity: 0;
+    animation: fadeInText 3s 2s ease-out forwards;
+}
+.text3{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: 'Russo One', sans-serif;
+    font-size:20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.45em;
+    white-space: nowrap;
+    text-transform: uppercase;
+    /* text-shadow: 2px 0 yellow, 0 2px yellow, 2px 0 yellow, 0 2px yellow; */
+    mix-blend-mode: multiply;
+}
+@keyframes scaleImage {
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeInText {
+    100% {
+        opacity:1;
+    }
+}
+#navbarNav{
+    color:blue;
+    font-size:22px
+
+}
+/* star ratings */
+.rating {
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    line-height: 50px;
+    font-size: 30px;
+  }
+  
+  .rating label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .rating label:last-child {
+    position: static;
+  }
+  
+  .rating label:nth-child(1) {
+    z-index: 5;
+  }
+  
+  .rating label:nth-child(2) {
+    z-index: 4;
+  }
+  
+  .rating label:nth-child(3) {
+    z-index: 3;
+  }
+  
+  .rating label:nth-child(4) {
+    z-index: 2;
+  }
+  
+  .rating label:nth-child(5) {
+    z-index: 1;
+  }
+  
+  .rating label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+  .rating label .icon {
+    float: left;
+    color: transparent;
+  }
+  
+  .rating label:last-child .icon {
+    color: grey;
+  }
+  
+  .rating:not(:hover) label input:checked ~ .icon,
+  .rating:hover label:hover input ~ .icon {
+    color: yellow;
+  }
+  
+  .rating label input:focus:not(:checked) ~ .icon:last-child {
+    color: #000;
+    text-shadow: 0 0 5px yellow;
+  }
+  /* for testdrive icon */
+ .theicon{
+   color:yellow;
+   font-size: 26px;
+ }
+ /* toggle form */
+
+ .form-group1,.form-group2,.form-group3{
+   margin-top:7px;
+  padding:10px;
+  background:#F0F8FF;
+  border-radius:15px;
+  display:none;
+
+}
+
+b{
+  color:#3498db;
+}
+#submit{
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#submit:hover{
+  background: #3cb0fd;
+  text-decoration: none;
+} 

@@ -81,9 +81,9 @@ typings/
 # nuxt.js build output
 .nuxt
 
-# gatsby files
-.cache/
-public
+# # gatsby files
+# .cache/
+# public
 
 # vuepress build output
 .vuepress/dist
