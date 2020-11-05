@@ -21,8 +21,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
   </script>
-    <!-- jquery google cdn -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- jquery google cdn -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
   <title>MuStAnG</title>
 </head>
@@ -61,27 +61,29 @@
           alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Close to You as Click On it</h5>
-          <a style=" text-decoration: none;" href="/request"><button type="button" class="btn btn-primary btn-sm btn-block"> OK </button></a>
+          <a style=" text-decoration: none;" href="/request"><button type="button"
+              class="btn btn-primary btn-sm btn-block"> OK </button></a>
           <div class="row">
             <div class="col-md-6 card-text"><small class="text-muted">Have Fun</small></div>
             <div class="col-md-6 "><span style="float: right;" class="theicon">
-               <!-- client rates -->
-              
-              <!-- end of client rates code -->★</span> <span
-                style="float: right;margin-top: 9px;"></span></div>
-          </div>
-  <!-- client comments -->
-  <%comments.forEach((element)=>{%>
-    <% if(element.carId=="car1"){ %>
-      <div class="car1Comment" style="border: outset grey 1px; margin-bottom: 5px; margin-top: 3px;border-radius: 3px;display: none;">
+                <!-- client rates -->
 
-        <p class="p1"style="color:#0F83FF;"><%=element.name%> <%=element.surname%> <i style="color:darkolivegreen"class="fas fa-pencil-alt"></i></p>
-          <p> <%=element.comment%></p>
-        </div>
-        <% } %>
-    <%})%>
-    <button type="button" class="btn btn-outline-success btn-sm car1read">Read Comments</button>
-    <!-- end of client comments code -->
+                <!-- end of client rates code -->★</span> <span style="float: right;margin-top: 9px;"></span></div>
+          </div>
+          <!-- client comments -->
+          <%comments.forEach((element)=>{%>
+          <% if(element.carId=="car1"){ %>
+          <div class="car1Comment"
+            style="border: outset grey 1px; margin-bottom: 5px; margin-top: 3px;border-radius: 3px;display: none;">
+
+            <p class="p1" style="color:#0F83FF;"><%=element.name%> <%=element.surname%> <i style="color:darkolivegreen"
+                class="fas fa-pencil-alt"></i></p>
+            <p> <%=element.comment%></p>
+          </div>
+          <% } %>
+          <%})%>
+          <button type="button" class="btn btn-outline-success btn-sm car1read">Read Comments</button>
+          <!-- end of client comments code -->
 
         </div>
       </div>
@@ -90,25 +92,29 @@
           alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Close to You as Click On it</h5>
-          <a style=" text-decoration: none;" href="/request"><button type="button" class="btn btn-primary btn-sm btn-block"> OK </button></a>
+          <a style=" text-decoration: none;" href="/request"><button type="button"
+              class="btn btn-primary btn-sm btn-block"> OK </button></a>
           <div class="row">
             <div class="col-md-6 card-text"><small class="text-muted">Have Fun</small></div>
             <div class="col-md-6 "> <span style="float: right;" class="theicon">
-              <!-- client rates -->
-          
-              <!-- end of client rates code -->★</span></div>
+                <!-- client rates -->
+
+                <!-- end of client rates code -->★</span></div>
           </div>
           <!-- client comments -->
           <%comments.forEach((element)=>{%>
-            <% if(element.carId=="car3"){ %>
-              
-              <div class="car2Comment" style="border: solid grey 1px; margin-bottom: 5px; margin-top: 3px;border-radius: 3px;display: none;display: none;">
-        <p class="p2" style="color:#0F83FF"><%=element.name%> <%=element.surname%> <i style="color:darkolivegreen"class="fas fa-pencil-alt"></i></p>
-          <p> <%=element.comment%></p>
-        </div>
-        <% } %>
-    <%})%>
-    <button type="button" class="btn btn-outline-success btn-sm car2read">Read Comments</button>    <!-- end of client comments code -->
+          <% if(element.carId=="car3"){ %>
+
+          <div class="car2Comment"
+            style="border: solid grey 1px; margin-bottom: 5px; margin-top: 3px;border-radius: 3px;display: none;display: none;">
+            <p class="p2" style="color:#0F83FF"><%=element.name%> <%=element.surname%> <i style="color:darkolivegreen"
+                class="fas fa-pencil-alt"></i></p>
+            <p> <%=element.comment%></p>
+          </div>
+          <% } %>
+          <%})%>
+          <button type="button" class="btn btn-outline-success btn-sm car2read">Read Comments</button>
+          <!-- end of client comments code -->
         </div>
       </div>
       <div class="card">
@@ -116,25 +122,29 @@
           alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Close to You as Click On it</h5>
-          <a style=" text-decoration: none;" href="/request"><button type="button" class="btn btn-primary btn-sm btn-block"> OK </button></a>
+          <a style=" text-decoration: none;" href="/request"><button type="button"
+              class="btn btn-primary btn-sm btn-block"> OK </button></a>
           <div class="row">
             <div class="col-md-6 card-text"><small class="text-muted">Have Fun</small></div>
             <div class="col-md-6 "> <span style="float: right;" class="theicon">
-              <!-- client rates -->
-           
-              <!-- end of client rates code -->★</span></div>
+                <!-- client rates -->
+
+                <!-- end of client rates code -->★</span></div>
           </div>
           <!-- client comments -->
           <%comments.forEach((element)=>{%>
-            <% if(element.carId=="car2"){ %>
-            
-              <div class="car3Comment" style="border: outset grey 1px; margin-bottom: 5px; margin-top: 3px;border-radius: 3px;display: none;display: none;">
-        <p style="color:#0F83FF"><%=element.name%> <%=element.surname%> <i style="color:darkolivegreen"class="fas fa-pencil-alt"></i></p>
-          <p> <%=element.comment%></p>
-        </div>
-        <% } %>
-    <%})%>
-    <button type="button" class="btn btn-outline-success btn-sm car3read">Read Comments</button>    <!-- end of client comments code -->
+          <% if(element.carId=="car2"){ %>
+
+          <div class="car3Comment"
+            style="border: outset grey 1px; margin-bottom: 5px; margin-top: 3px;border-radius: 3px;display: none;display: none;">
+            <p style="color:#0F83FF"><%=element.name%> <%=element.surname%> <i style="color:darkolivegreen"
+                class="fas fa-pencil-alt"></i></p>
+            <p> <%=element.comment%></p>
+          </div>
+          <% } %>
+          <%})%>
+          <button type="button" class="btn btn-outline-success btn-sm car3read">Read Comments</button>
+          <!-- end of client comments code -->
         </div>
       </div>
     </div>
@@ -147,22 +157,26 @@
         <img class="card-img-top" src="images\sport mustang\4aba16e209444c19b319973c838479ca.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Close to You as Click On it</h5>
-          <a style=" text-decoration: none;" href="/request"><button type="button" class="btn btn-primary btn-sm btn-block"> OK </button></a>
+          <a style=" text-decoration: none;" href="/request"><button type="button"
+              class="btn btn-primary btn-sm btn-block"> OK </button></a>
           <div class="row">
             <div class="col-md-6 card-text"><small class="text-muted">Have Fun</small></div>
             <div class="col-md-6 "> <span style="float: right;" class="theicon">★</span></div>
           </div>
           <!-- client comments -->
-  <%comments.forEach((element)=>{%>
-    <% if(element.carId=="car4"){ %>
-      <div class="car4Comment" style="border: outset grey 1px; margin-bottom: 5px; margin-top: 3px;border-radius: 3px;display: none;">
+          <%comments.forEach((element)=>{%>
+          <% if(element.carId=="car4"){ %>
+          <div class="car4Comment"
+            style="border: outset grey 1px; margin-bottom: 5px; margin-top: 3px;border-radius: 3px;display: none;">
 
-        <p style="color:#0F83FF"><%=element.name%> <%=element.surname%> <i style="color:darkolivegreen"class="fas fa-pencil-alt"></i></p>
-          <p> <%=element.comment%></p>
-        </div>
-        <% } %>
-    <%})%>
-    <button type="button" class="btn btn-outline-success btn-sm car4read">Read Comments</button>    <!-- end of client comments code -->
+            <p style="color:#0F83FF"><%=element.name%> <%=element.surname%> <i style="color:darkolivegreen"
+                class="fas fa-pencil-alt"></i></p>
+            <p> <%=element.comment%></p>
+          </div>
+          <% } %>
+          <%})%>
+          <button type="button" class="btn btn-outline-success btn-sm car4read">Read Comments</button>
+          <!-- end of client comments code -->
         </div>
       </div>
       <div class="card">
@@ -170,22 +184,26 @@
           alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Close to You as Click On it</h5>
-          <a style=" text-decoration: none;" href="/request"><button type="button" class="btn btn-primary btn-sm btn-block"> OK </button></a>
+          <a style=" text-decoration: none;" href="/request"><button type="button"
+              class="btn btn-primary btn-sm btn-block"> OK </button></a>
           <div class="row">
             <div class="col-md-6 card-text"><small class="text-muted">Have Fun</small></div>
             <div class="col-md-6 "> <span style="float: right;" class="theicon">★</span></div>
           </div>
           <!-- client comments -->
-  <%comments.forEach((element)=>{%>
-    <% if(element.carId=="car5"){ %>
-      <div class="car5Comment" style="border: outset grey 1px; margin-bottom: 5px; margin-top: 3px;border-radius: 3px;display: none;">
+          <%comments.forEach((element)=>{%>
+          <% if(element.carId=="car5"){ %>
+          <div class="car5Comment"
+            style="border: outset grey 1px; margin-bottom: 5px; margin-top: 3px;border-radius: 3px;display: none;">
 
-        <p style="color:#0F83FF"><%=element.name%> <%=element.surname%> <i style="color:darkolivegreen"class="fas fa-pencil-alt"></i></p>
-          <p> <%=element.comment%></p>
-        </div>
-        <% } %>
-    <%})%>
-    <button type="button" class="btn btn-outline-success btn-sm car5read">Read Comments</button>    <!-- end of client comments code -->
+            <p style="color:#0F83FF"><%=element.name%> <%=element.surname%> <i style="color:darkolivegreen"
+                class="fas fa-pencil-alt"></i></p>
+            <p> <%=element.comment%></p>
+          </div>
+          <% } %>
+          <%})%>
+          <button type="button" class="btn btn-outline-success btn-sm car5read">Read Comments</button>
+          <!-- end of client comments code -->
         </div>
       </div>
       <div class="card">
@@ -193,22 +211,26 @@
           alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Close to You as Click On it</h5>
-          <a style=" text-decoration: none;" href="/request"><button type="button" class="btn btn-primary btn-sm btn-block"> OK </button></a>
+          <a style=" text-decoration: none;" href="/request"><button type="button"
+              class="btn btn-primary btn-sm btn-block"> OK </button></a>
           <div class="row">
             <div class="col-md-6 card-text"><small class="text-muted">Have Fun</small></div>
             <div class="col-md-6 "> <span style="float: right;" class="theicon">★</span></div>
           </div>
           <!-- client comments -->
-  <%comments.forEach((element)=>{%>
-    <% if(element.carId=="car6"){ %>
-      <div class="car6Comment" style="border: outset grey 1px; margin-bottom: 5px; margin-top: 3px;border-radius: 3px;display: none;">
+          <%comments.forEach((element)=>{%>
+          <% if(element.carId=="car6"){ %>
+          <div class="car6Comment"
+            style="border: outset grey 1px; margin-bottom: 5px; margin-top: 3px;border-radius: 3px;display: none;">
 
-        <p style="color:#0F83FF"><%=element.name%> <%=element.surname%> <i style="color:darkolivegreen"class="fas fa-pencil-alt"></i></p>
-          <p> <%=element.comment%></p>
-        </div>
-        <% } %>
-    <%})%>
-    <button type="button" class="btn btn-outline-success btn-sm car6read">Read Comments</button>    <!-- end of client comments code -->
+            <p style="color:#0F83FF"><%=element.name%> <%=element.surname%> <i style="color:darkolivegreen"
+                class="fas fa-pencil-alt"></i></p>
+            <p> <%=element.comment%></p>
+          </div>
+          <% } %>
+          <%})%>
+          <button type="button" class="btn btn-outline-success btn-sm car6read">Read Comments</button>
+          <!-- end of client comments code -->
         </div>
       </div>
     </div>
@@ -220,22 +242,26 @@
         <img class="card-img-top" src="images\modified mustang\retro-ford-mustang-gt-sema.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Close to You as Click On it</h5>
-          <a style=" text-decoration: none;" href="/request"><button type="button" class="btn btn-primary btn-sm btn-block"> OK </button></a>
+          <a style=" text-decoration: none;" href="/request"><button type="button"
+              class="btn btn-primary btn-sm btn-block"> OK </button></a>
           <div class="row">
             <div class="col-md-6 card-text"><small class="text-muted">Have Fun</small></div>
             <div class="col-md-6 "> <span style="float: right;" class="theicon">★</span></div>
           </div>
           <!-- client comments -->
-  <%comments.forEach((element)=>{%>
-    <% if(element.carId=="car7"){ %>
-      <div class="car7Comment" style="border: outset grey 1px; margin-bottom: 5px; margin-top: 3px;border-radius: 3px;display: none;">
+          <%comments.forEach((element)=>{%>
+          <% if(element.carId=="car7"){ %>
+          <div class="car7Comment"
+            style="border: outset grey 1px; margin-bottom: 5px; margin-top: 3px;border-radius: 3px;display: none;">
 
-        <p style="color:#0F83FF"><%=element.name%> <%=element.surname%> <i style="color:darkolivegreen"class="fas fa-pencil-alt"></i></p>
-          <p> <%=element.comment%></p>
-        </div>
-        <% } %>
-    <%})%>
-    <button type="button" class="btn btn-outline-success btn-sm car7read">Read Comments</button>    <!-- end of client comments code -->
+            <p style="color:#0F83FF"><%=element.name%> <%=element.surname%> <i style="color:darkolivegreen"
+                class="fas fa-pencil-alt"></i></p>
+            <p> <%=element.comment%></p>
+          </div>
+          <% } %>
+          <%})%>
+          <button type="button" class="btn btn-outline-success btn-sm car7read">Read Comments</button>
+          <!-- end of client comments code -->
         </div>
       </div>
       <div class="card">
@@ -243,22 +269,26 @@
           alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Close to You as Click On it</h5>
-          <a style=" text-decoration: none;" href="/request"><button type="button" class="btn btn-primary btn-sm btn-block"> OK </button></a>
+          <a style=" text-decoration: none;" href="/request"><button type="button"
+              class="btn btn-primary btn-sm btn-block"> OK </button></a>
           <div class="row">
             <div class="col-md-6 card-text"><small class="text-muted">Have Fun</small></div>
             <div class="col-md-6 "> <span style="float: right;" class="theicon">★</span></div>
           </div>
           <!-- client comments -->
-  <%comments.forEach((element)=>{%>
-    <% if(element.carId=="car8"){ %>
-      <div class="car8Comment" style="border: outset grey 1px; margin-bottom: 5px; margin-top: 3px;border-radius: 3px;display: none;">
+          <%comments.forEach((element)=>{%>
+          <% if(element.carId=="car8"){ %>
+          <div class="car8Comment"
+            style="border: outset grey 1px; margin-bottom: 5px; margin-top: 3px;border-radius: 3px;display: none;">
 
-        <p style="color:#0F83FF"><%=element.name%> <%=element.surname%> <i style="color:darkolivegreen"class="fas fa-pencil-alt"></i></p>
-          <p> <%=element.comment%></p>
-        </div>
-        <% } %>
-    <%})%>
-    <button type="button" class="btn btn-outline-success btn-sm car8read">Read Comments</button>    <!-- end of client comments code -->
+            <p style="color:#0F83FF"><%=element.name%> <%=element.surname%> <i style="color:darkolivegreen"
+                class="fas fa-pencil-alt"></i></p>
+            <p> <%=element.comment%></p>
+          </div>
+          <% } %>
+          <%})%>
+          <button type="button" class="btn btn-outline-success btn-sm car8read">Read Comments</button>
+          <!-- end of client comments code -->
         </div>
       </div>
       <div class="card">
@@ -266,22 +296,26 @@
           src="images\modified mustang\zero-to-60-mustang-gtt-first-drive.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Close to You as Click On it</h5>
-          <a style=" text-decoration: none;" href="/request"><button type="button" class="btn btn-primary btn-sm btn-block"> OK </button></a>
+          <a style=" text-decoration: none;" href="/request"><button type="button"
+              class="btn btn-primary btn-sm btn-block"> OK </button></a>
           <div class="row">
             <div class="col-md-6 card-text"><small class="text-muted">Have Fun</small></div>
             <div class="col-md-6 "> <span style="float: right;" class="theicon">★</span></div>
           </div>
           <!-- client comments -->
-  <%comments.forEach((element)=>{%>
-    <% if(element.carId=="car9"){ %>
-      <div class="car9Comment" style="border: outset grey 1px; margin-bottom: 5px; margin-top: 3px;border-radius: 3px;display: none;">
+          <%comments.forEach((element)=>{%>
+          <% if(element.carId=="car9"){ %>
+          <div class="car9Comment"
+            style="border: outset grey 1px; margin-bottom: 5px; margin-top: 3px;border-radius: 3px;display: none;">
 
-        <p style="color:#0F83FF"><%=element.name%> <%=element.surname%> <i style="color:darkolivegreen"class="fas fa-pencil-alt"></i></p>
-          <p> <%=element.comment%></p>
-        </div>
-        <% } %>
-    <%})%>
-    <button type="button" class="btn btn-outline-success btn-sm car9read">Read Comments</button>    <!-- end of client comments code -->
+            <p style="color:#0F83FF"><%=element.name%> <%=element.surname%> <i style="color:darkolivegreen"
+                class="fas fa-pencil-alt"></i></p>
+            <p> <%=element.comment%></p>
+          </div>
+          <% } %>
+          <%})%>
+          <button type="button" class="btn btn-outline-success btn-sm car9read">Read Comments</button>
+          <!-- end of client comments code -->
         </div>
       </div>
     </div>
@@ -310,44 +344,43 @@
   </div>
   <!-- toggle be able to read to comments -->
   <script>
-      $(document).ready(function () {
-        $(".car1read").click(function () {
-          $(".car1Comment").toggle();
-        });
-  
-        $(".car2read").click(function () {
-          $(".car2Comment").toggle();
-        });
-    
-        $(".car3read").click(function () {
-          $(".car3Comment").toggle();
-        });
-        $(".car4read").click(function () {
-          $(".car4Comment").toggle();
-        });
-    
-        $(".car5read").click(function () {
-          $(".car5Comment").toggle();
-        });
-        $(".car6read").click(function () {
-          $(".car6Comment").toggle();
-        });
-    
-        $(".car7read").click(function () {
-          $(".car7Comment").toggle();
-        });
-        $(".car8read").click(function () {
-          $(".car8Comment").toggle();
-        });
-    
-        $(".car9read").click(function () {
-          $(".car9Comment").toggle();
-        });
+    $(document).ready(function () {
+      $(".car1read").click(function () {
+        $(".car1Comment").toggle();
       });
-     
-    </script>
-     <!-- toggle be able to read to comments END --> 
-     
+
+      $(".car2read").click(function () {
+        $(".car2Comment").toggle();
+      });
+
+      $(".car3read").click(function () {
+        $(".car3Comment").toggle();
+      });
+      $(".car4read").click(function () {
+        $(".car4Comment").toggle();
+      });
+
+      $(".car5read").click(function () {
+        $(".car5Comment").toggle();
+      });
+      $(".car6read").click(function () {
+        $(".car6Comment").toggle();
+      });
+
+      $(".car7read").click(function () {
+        $(".car7Comment").toggle();
+      });
+      $(".car8read").click(function () {
+        $(".car8Comment").toggle();
+      });
+
+      $(".car9read").click(function () {
+        $(".car9Comment").toggle();
+      });
+    });
+  </script>
+  <!-- toggle be able to read to comments END -->
+
 </body>
 
 </html>
